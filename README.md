@@ -9,31 +9,47 @@ virtualenv
 
 ## Setup
 (activate a virtual environment, maybe `source ./path-to-your-venv/bin/activate` or `workon [your-venvv-name]`, if don't have, create one)
-> npm i     (would also install bower and pip modules)
-> echo [port number] > port
-> ./manage.py migrate
+```
+$ npm i     (would also install bower and pip modules)
+$ echo [port number] > port
+$ ./manage.py migrate
+```
 
 ## Commands
 
 ### webpack watch and build
-> npm start
+```
+$ npm start
+```
 
 ### django server
-> npm run server
+```
+$ npm run server
+```
 
 ### webpack build once and exit
-> npm run build
+```
+$ npm run build
+```
 
 ## Lints
 
 ### django-lint
-> npm run lint:djg
+```
+$ npm run lint:djg
+```
 
 ### ls-lint
-> npm run lint:ls
+```
+$ npm run lint:ls
+```
 
 ### pylint
-> npm run lint:py
+```
+$ npm run lint:py
+```
 
 ### stylint
-> npm run lint:styl
+```
+$ npm run lint:styl
+```
