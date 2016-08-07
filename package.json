@@ -37,7 +37,6 @@
     "jade": "^1.11.0",
     "jade-loader": "^0.8.0",
     "jquery": "^3.1.0",
-    "jquery-countdown": "^2.0.5",
     "jquery-form": "^3.50.0",
     "json-loader": "^0.5.4",
     "livescript": "^1.5.0",
