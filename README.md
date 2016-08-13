@@ -24,7 +24,7 @@ $ npm start
 
 ### django server
 ```
-$ npm run server
+$ npm run django
 ```
 
 ### webpack build once and exit
