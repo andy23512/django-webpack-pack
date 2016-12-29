@@ -2,16 +2,35 @@
 A start pack for django with webpack
 
 ## Requirement
-- Python
+- Python3
 - pip
 - nodejs
 - virtualenv
 
 ## Setup
+
+### Create a virtual environment
 ```
-(activate a virtual environment, maybe `source ./path-to-your-venv/bin/activate` or `workon [your-venvv-name]`, if don't have, create one)
+$ virtualenv ~/.virtualenvs/[your-venv-name]/ -p python3
+```
+
+### Activate virtual environment
+```
+$ source ~/.virtualenvs/[you-venv-name]/bin/activate
+```
+
+### Install dependencies
+```
 $ npm i     (would also install bower and pip modules)
+```
+
+### Set the port number at which django dev server will run
+```
 $ echo [port number] > port
+```
+
+### Migrate database
+```
 $ ./manage.py migrate
 ```
 
