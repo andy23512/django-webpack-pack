@@ -21,24 +21,25 @@
     "email": "andy23512@gmail.com"
   },
   "private": false,
-  "devDependencies": {
-    "css-loader": "^0.23.1",
+  "dependencies": {
+    "css-loader": "^0.26.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "gulp": "^3.9.1",
-    "jquery": "^3.1.0",
+    "jquery": "^3.1.1",
     "jquery-form": "^3.50.0",
     "livescript": "^1.5.0",
-    "livescript-loader": "^0.1.5",
-    "ls-lint": "^0.1.0",
+    "livescript-loader": "^0.1.6",
     "nib": "^1.1.2",
-    "semantic-ui": "^2.2.2",
+    "semantic-ui": "^2.2.7",
     "style-loader": "^0.13.1",
-    "stylint": "^1.5.6",
     "stylus": "^0.54.5",
-    "stylus-loader": "^2.1.2",
-    "typeset": "^0.2.2",
-    "webpack": "^1.13.1",
-    "webpack-bundle-tracker": "0.0.93"
+    "stylus-loader": "^2.4.0",
+    "webpack": "^1.14.0",
+    "webpack-bundle-tracker": "^0.2.0"
+  },
+  "devDependencies": {
+    "ls-lint": "^0.1.0",
+    "stylint": "^1.5.6"
   }
 }
