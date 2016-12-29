@@ -21,7 +21,7 @@ $ source ~/.virtualenvs/[you-venv-name]/bin/activate
 
 ### Install dependencies
 ```
-$ npm i     (would also install bower and pip modules)
+$ npm i     (would also install pip modules)
 ```
 
 ### Set the port number at which django dev server will run

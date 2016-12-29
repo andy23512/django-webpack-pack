@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "webpack -p",
-    "postinstall": "pip install -r pip-modules.txt",
+    "postinstall": "pip install -r requirements.txt",
     "lint:djg": "django-lint **/*.py",
     "lint:ls": "ls-lint app/*.ls webpack.config.ls",
     "lint:py": "pylint *.py **/*.py",
