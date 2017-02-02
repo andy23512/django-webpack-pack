@@ -21,7 +21,8 @@ $ source ~/.virtualenvs/[you-venv-name]/bin/activate
 
 ### Install dependencies
 ```
-$ npm i     (would also install pip modules)
+$ yarn (or npm i)
+$ pip install -r requirements.txt
 ```
 
 ### Set the port number at which django dev server will run
@@ -38,37 +39,37 @@ $ ./manage.py migrate
 
 ### webpack watch and build
 ```
-$ npm start
+$ yarn start (or npm start)
 ```
 
 ### django server
 ```
-$ npm run django
+$ yarn run django (or npm run django)
 ```
 
 ### webpack build once and exit
 ```
-$ npm run build
+$ yarn run build (or npm run build)
 ```
 
 ## Lints
 
 ### django-lint
 ```
-$ npm run lint:djg
+$ yarn run lint:djg (or npm run lint:djg)
 ```
 
 ### ls-lint
 ```
-$ npm run lint:ls
+$ yarn run lint:ls (or npm run lint:ls)
 ```
 
 ### pylint
 ```
-$ npm run lint:py
+$ yarn run lint:py (or npm run lint:py)
 ```
 
 ### stylint
 ```
-$ npm run lint:styl
+$ yarn run lint:styl (or npm run lint:styl)
 ```

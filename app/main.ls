@@ -1,7 +1,7 @@
 # modules
 $ = jQuery = require 'jquery/dist/jquery.min.js'
-require 'semantic-ui/dist/semantic.min.js'
-require 'semantic-ui/dist/semantic.min.css'
+require 'semantic-ui-css/semantic.min.js'
+require 'semantic-ui-css/semantic.min.css'
 require 'jquery-form/jquery.form.js'
 
 # our code
