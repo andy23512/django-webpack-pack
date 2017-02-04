@@ -23,6 +23,8 @@ $ source ~/.virtualenvs/[you-venv-name]/bin/activate
 ```
 $ yarn (or npm i)
 $ pip install -r requirements.txt
+$ pip install --upgrade git+git://github.com/syrusakbary/pyjade.git@d8cf1d9404c759c6a2430c9a900874ab
+0e970cd8
 ```
 
 ### Set the port number at which django dev server will run
